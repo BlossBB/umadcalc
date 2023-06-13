@@ -4,6 +4,8 @@ const promparcial2Input = document.getElementById('promparcial2');
 const promparcial3Input = document.getElementById('promparcial3');
 const promordinarioInput = document.getElementById('promordinario');
 
+console.log(promordinarioInput)
+
 // Agregar evento input a cada campo de entrada
 promparcial1Input.addEventListener('input', validarValor);
 promparcial2Input.addEventListener('input', validarValor);
